@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/user_1/Documents/Projects/SFML/Quiz_Game/include
+CXX_INCLUDES = -I/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/include
 
 CXX_FLAGS = -std=gnu++17
 

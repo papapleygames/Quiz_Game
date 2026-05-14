@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Quiz_Game.dir/src/main.cpp.o -o Quiz_Game  /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1 
+/usr/bin/c++ CMakeFiles/Quiz_Game.dir/src/main.cpp.o CMakeFiles/Quiz_Game.dir/src/Game.cpp.o -o Quiz_Game  /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1 

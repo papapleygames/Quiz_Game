@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user_1/Documents/Projects/SFML/Quiz_Game
+CMAKE_SOURCE_DIR = /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user_1/Documents/Projects/SFML/Quiz_Game/build
+CMAKE_BINARY_DIR = /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Quiz_Game.dir/depend.make
@@ -70,33 +70,49 @@ include CMakeFiles/Quiz_Game.dir/progress.make
 include CMakeFiles/Quiz_Game.dir/flags.make
 
 CMakeFiles/Quiz_Game.dir/src/main.cpp.o: CMakeFiles/Quiz_Game.dir/flags.make
-CMakeFiles/Quiz_Game.dir/src/main.cpp.o: /home/user_1/Documents/Projects/SFML/Quiz_Game/src/main.cpp
+CMakeFiles/Quiz_Game.dir/src/main.cpp.o: /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/main.cpp
 CMakeFiles/Quiz_Game.dir/src/main.cpp.o: CMakeFiles/Quiz_Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user_1/Documents/Projects/SFML/Quiz_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Quiz_Game.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Quiz_Game.dir/src/main.cpp.o -MF CMakeFiles/Quiz_Game.dir/src/main.cpp.o.d -o CMakeFiles/Quiz_Game.dir/src/main.cpp.o -c /home/user_1/Documents/Projects/SFML/Quiz_Game/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Quiz_Game.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Quiz_Game.dir/src/main.cpp.o -MF CMakeFiles/Quiz_Game.dir/src/main.cpp.o.d -o CMakeFiles/Quiz_Game.dir/src/main.cpp.o -c /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/main.cpp
 
 CMakeFiles/Quiz_Game.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Quiz_Game.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user_1/Documents/Projects/SFML/Quiz_Game/src/main.cpp > CMakeFiles/Quiz_Game.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/main.cpp > CMakeFiles/Quiz_Game.dir/src/main.cpp.i
 
 CMakeFiles/Quiz_Game.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Quiz_Game.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user_1/Documents/Projects/SFML/Quiz_Game/src/main.cpp -o CMakeFiles/Quiz_Game.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/main.cpp -o CMakeFiles/Quiz_Game.dir/src/main.cpp.s
+
+CMakeFiles/Quiz_Game.dir/src/Game.cpp.o: CMakeFiles/Quiz_Game.dir/flags.make
+CMakeFiles/Quiz_Game.dir/src/Game.cpp.o: /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/Game.cpp
+CMakeFiles/Quiz_Game.dir/src/Game.cpp.o: CMakeFiles/Quiz_Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Quiz_Game.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Quiz_Game.dir/src/Game.cpp.o -MF CMakeFiles/Quiz_Game.dir/src/Game.cpp.o.d -o CMakeFiles/Quiz_Game.dir/src/Game.cpp.o -c /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/Game.cpp
+
+CMakeFiles/Quiz_Game.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Quiz_Game.dir/src/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/Game.cpp > CMakeFiles/Quiz_Game.dir/src/Game.cpp.i
+
+CMakeFiles/Quiz_Game.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Quiz_Game.dir/src/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/Game.cpp -o CMakeFiles/Quiz_Game.dir/src/Game.cpp.s
 
 # Object files for target Quiz_Game
 Quiz_Game_OBJECTS = \
-"CMakeFiles/Quiz_Game.dir/src/main.cpp.o"
+"CMakeFiles/Quiz_Game.dir/src/main.cpp.o" \
+"CMakeFiles/Quiz_Game.dir/src/Game.cpp.o"
 
 # External object files for target Quiz_Game
 Quiz_Game_EXTERNAL_OBJECTS =
 
 Quiz_Game: CMakeFiles/Quiz_Game.dir/src/main.cpp.o
+Quiz_Game: CMakeFiles/Quiz_Game.dir/src/Game.cpp.o
 Quiz_Game: CMakeFiles/Quiz_Game.dir/build.make
 Quiz_Game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Quiz_Game: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Quiz_Game: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Quiz_Game: CMakeFiles/Quiz_Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user_1/Documents/Projects/SFML/Quiz_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Quiz_Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Quiz_Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Quiz_Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +124,6 @@ CMakeFiles/Quiz_Game.dir/clean:
 .PHONY : CMakeFiles/Quiz_Game.dir/clean
 
 CMakeFiles/Quiz_Game.dir/depend:
-	cd /home/user_1/Documents/Projects/SFML/Quiz_Game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user_1/Documents/Projects/SFML/Quiz_Game /home/user_1/Documents/Projects/SFML/Quiz_Game /home/user_1/Documents/Projects/SFML/Quiz_Game/build /home/user_1/Documents/Projects/SFML/Quiz_Game/build /home/user_1/Documents/Projects/SFML/Quiz_Game/build/CMakeFiles/Quiz_Game.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/build /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/build /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/build/CMakeFiles/Quiz_Game.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Quiz_Game.dir/depend
 

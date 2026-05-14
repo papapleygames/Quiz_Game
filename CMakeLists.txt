@@ -8,6 +8,6 @@ find_package(SFML 2.5 REQUIRED graphics window system)
 
 include_directories(include)
 
-add_executable(Quiz_Game src/main.cpp)
+add_executable(Quiz_Game src/main.cpp src/Game.cpp)
 
 target_link_libraries(Quiz_Game sfml-graphics sfml-window sfml-system)

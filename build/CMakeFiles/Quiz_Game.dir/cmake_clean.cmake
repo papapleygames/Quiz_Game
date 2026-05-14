@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Quiz_Game.dir/src/Game.cpp.o"
+  "CMakeFiles/Quiz_Game.dir/src/Game.cpp.o.d"
   "CMakeFiles/Quiz_Game.dir/src/main.cpp.o"
   "CMakeFiles/Quiz_Game.dir/src/main.cpp.o.d"
   "Quiz_Game"

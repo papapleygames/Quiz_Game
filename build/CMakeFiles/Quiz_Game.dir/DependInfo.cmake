@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/user_1/Documents/Projects/SFML/Quiz_Game/src/main.cpp" "CMakeFiles/Quiz_Game.dir/src/main.cpp.o" "gcc" "CMakeFiles/Quiz_Game.dir/src/main.cpp.o.d"
+  "/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/Game.cpp" "CMakeFiles/Quiz_Game.dir/src/Game.cpp.o" "gcc" "CMakeFiles/Quiz_Game.dir/src/Game.cpp.o.d"
+  "/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/main.cpp" "CMakeFiles/Quiz_Game.dir/src/main.cpp.o" "gcc" "CMakeFiles/Quiz_Game.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

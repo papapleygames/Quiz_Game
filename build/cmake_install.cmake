@@ -1,4 +1,4 @@
-# Install script for directory: /home/user_1/Documents/Projects/SFML/Quiz_Game
+# Install script for directory: /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/user_1/Documents/Projects/SFML/Quiz_Game/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
