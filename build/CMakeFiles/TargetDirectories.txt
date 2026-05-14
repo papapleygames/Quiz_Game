@@ -1,0 +1,3 @@
+/home/user_1/Documents/Projects/SFML/Quiz_Game/build/CMakeFiles/Quiz_Game.dir
+/home/user_1/Documents/Projects/SFML/Quiz_Game/build/CMakeFiles/edit_cache.dir
+/home/user_1/Documents/Projects/SFML/Quiz_Game/build/CMakeFiles/rebuild_cache.dir

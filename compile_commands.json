@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/user_1/Documents/Projects/SFML/Quiz_Game/build",
+    "command": "/usr/bin/c++  -I/home/user_1/Documents/Projects/SFML/Quiz_Game/include -std=gnu++17 -o CMakeFiles/Quiz_Game.dir/src/main.cpp.o -c /home/user_1/Documents/Projects/SFML/Space_War/src/main.cpp",
+    "file": "/home/user_1/Documents/Projects/SFML/Quiz_Game/src/main.cpp"
+  }
+]
