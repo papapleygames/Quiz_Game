@@ -177,6 +177,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/quiz/QuizManager.o: src/quiz/QuizManager.cpp.o
+.PHONY : src/quiz/QuizManager.o
+
+# target to build an object file
+src/quiz/QuizManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/quiz/QuizManager.cpp.o
+.PHONY : src/quiz/QuizManager.cpp.o
+
+src/quiz/QuizManager.i: src/quiz/QuizManager.cpp.i
+.PHONY : src/quiz/QuizManager.i
+
+# target to preprocess a source file
+src/quiz/QuizManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/quiz/QuizManager.cpp.i
+.PHONY : src/quiz/QuizManager.cpp.i
+
+src/quiz/QuizManager.s: src/quiz/QuizManager.cpp.s
+.PHONY : src/quiz/QuizManager.s
+
+# target to generate assembly for a file
+src/quiz/QuizManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/quiz/QuizManager.cpp.s
+.PHONY : src/quiz/QuizManager.cpp.s
+
+src/states/MenuState.o: src/states/MenuState.cpp.o
+.PHONY : src/states/MenuState.o
+
+# target to build an object file
+src/states/MenuState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/states/MenuState.cpp.o
+.PHONY : src/states/MenuState.cpp.o
+
+src/states/MenuState.i: src/states/MenuState.cpp.i
+.PHONY : src/states/MenuState.i
+
+# target to preprocess a source file
+src/states/MenuState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/states/MenuState.cpp.i
+.PHONY : src/states/MenuState.cpp.i
+
+src/states/MenuState.s: src/states/MenuState.cpp.s
+.PHONY : src/states/MenuState.s
+
+# target to generate assembly for a file
+src/states/MenuState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/states/MenuState.cpp.s
+.PHONY : src/states/MenuState.cpp.s
+
+src/states/QuizState.o: src/states/QuizState.cpp.o
+.PHONY : src/states/QuizState.o
+
+# target to build an object file
+src/states/QuizState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/states/QuizState.cpp.o
+.PHONY : src/states/QuizState.cpp.o
+
+src/states/QuizState.i: src/states/QuizState.cpp.i
+.PHONY : src/states/QuizState.i
+
+# target to preprocess a source file
+src/states/QuizState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/states/QuizState.cpp.i
+.PHONY : src/states/QuizState.cpp.i
+
+src/states/QuizState.s: src/states/QuizState.cpp.s
+.PHONY : src/states/QuizState.s
+
+# target to generate assembly for a file
+src/states/QuizState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/states/QuizState.cpp.s
+.PHONY : src/states/QuizState.cpp.s
+
+src/ui/Button.o: src/ui/Button.cpp.o
+.PHONY : src/ui/Button.o
+
+# target to build an object file
+src/ui/Button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/ui/Button.cpp.o
+.PHONY : src/ui/Button.cpp.o
+
+src/ui/Button.i: src/ui/Button.cpp.i
+.PHONY : src/ui/Button.i
+
+# target to preprocess a source file
+src/ui/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/ui/Button.cpp.i
+.PHONY : src/ui/Button.cpp.i
+
+src/ui/Button.s: src/ui/Button.cpp.s
+.PHONY : src/ui/Button.s
+
+# target to generate assembly for a file
+src/ui/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quiz_Game.dir/build.make CMakeFiles/Quiz_Game.dir/src/ui/Button.cpp.s
+.PHONY : src/ui/Button.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +288,18 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/quiz/QuizManager.o"
+	@echo "... src/quiz/QuizManager.i"
+	@echo "... src/quiz/QuizManager.s"
+	@echo "... src/states/MenuState.o"
+	@echo "... src/states/MenuState.i"
+	@echo "... src/states/MenuState.s"
+	@echo "... src/states/QuizState.o"
+	@echo "... src/states/QuizState.i"
+	@echo "... src/states/QuizState.s"
+	@echo "... src/ui/Button.o"
+	@echo "... src/ui/Button.i"
+	@echo "... src/ui/Button.s"
 .PHONY : help
 
 

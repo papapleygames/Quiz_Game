@@ -1,6 +1,7 @@
 CMakeFiles/Quiz_Game.dir/src/Game.cpp.o: \
   /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/Game.cpp \
   /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/Game.hpp \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/State.hpp \
   /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
   /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
   /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -267,4 +268,8 @@ CMakeFiles/Quiz_Game.dir/src/Game.cpp.o: \
   /usr/include/SFML/Graphics/Glsl.inl \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Text.hpp \
-  /usr/include/SFML/Graphics/VertexBuffer.hpp
+  /usr/include/SFML/Graphics/VertexBuffer.hpp \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/QuizState.hpp \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/../quiz/QuizManager.hpp \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/../quiz/Question.hpp \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/../ui/Button.hpp

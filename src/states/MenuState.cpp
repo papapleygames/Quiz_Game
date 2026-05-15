@@ -1,7 +1,10 @@
 #include "MenuState.hpp"
+#include <iostream>
 
 MenuState::MenuState() {
-  font.loadFromFile("assets/font/ARIAL.TTF");
+  if (!font.loadFromFile("assets/fonts/DejaVuSans.ttf")) {
+    std::cout << "Failed to load font\n";
+  }
   startButton = new Button(font, "Start Quiz", 400, 300);
 }
 

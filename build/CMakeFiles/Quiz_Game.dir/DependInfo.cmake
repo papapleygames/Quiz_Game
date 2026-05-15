@@ -10,6 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/Game.cpp" "CMakeFiles/Quiz_Game.dir/src/Game.cpp.o" "gcc" "CMakeFiles/Quiz_Game.dir/src/Game.cpp.o.d"
   "/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/main.cpp" "CMakeFiles/Quiz_Game.dir/src/main.cpp.o" "gcc" "CMakeFiles/Quiz_Game.dir/src/main.cpp.o.d"
+  "/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/quiz/QuizManager.cpp" "CMakeFiles/Quiz_Game.dir/src/quiz/QuizManager.cpp.o" "gcc" "CMakeFiles/Quiz_Game.dir/src/quiz/QuizManager.cpp.o.d"
+  "/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/MenuState.cpp" "CMakeFiles/Quiz_Game.dir/src/states/MenuState.cpp.o" "gcc" "CMakeFiles/Quiz_Game.dir/src/states/MenuState.cpp.o.d"
+  "/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/QuizState.cpp" "CMakeFiles/Quiz_Game.dir/src/states/QuizState.cpp.o" "gcc" "CMakeFiles/Quiz_Game.dir/src/states/QuizState.cpp.o.d"
+  "/home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/ui/Button.cpp" "CMakeFiles/Quiz_Game.dir/src/ui/Button.cpp.o" "gcc" "CMakeFiles/Quiz_Game.dir/src/ui/Button.cpp.o.d"
   )
 
 # Targets to which this target links.

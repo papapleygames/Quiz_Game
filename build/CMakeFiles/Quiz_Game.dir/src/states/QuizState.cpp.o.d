@@ -1,6 +1,6 @@
-CMakeFiles/Quiz_Game.dir/src/main.cpp.o: \
-  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/main.cpp \
-  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/Game.hpp \
+CMakeFiles/Quiz_Game.dir/src/states/QuizState.cpp.o: \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/QuizState.cpp \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/QuizState.hpp \
   /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/State.hpp \
   /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
   /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
@@ -269,6 +269,9 @@ CMakeFiles/Quiz_Game.dir/src/main.cpp.o: \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Text.hpp \
   /usr/include/SFML/Graphics/VertexBuffer.hpp \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/../quiz/QuizManager.hpp \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/../quiz/Question.hpp \
+  /home/user_1/Documents/Projects/SFML/Quiz_game/Quiz_Game/src/states/../ui/Button.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/istream.tcc
